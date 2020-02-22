@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  margin: 0;
+  width: 1020px;
+}
+
+.header {
+  position: relative;
+  height: 89px;
+  background-color: #2d303a;
+  box-shadow: 0, -10px, 6px, #323746;
+}
+
+.main {
+  position: relative;
+  height: 600px;
+  background-color: #f06c64;
+}
+
+.footer {
+  position: relative;
+  height: 495px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  margin: 0;
+  font-size: 25px;
+  line-height: 6px;
+  color: #ffffff;
+  font-family: LatoBold;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: -0.3px;
+}
+span {
+  color:#f06c64;
+}
+
+.menu {
+  position: relative;
+  top: 47px;
+  left: 608px;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 6px;
+}
+
+.line {
+  width: 1020px;
+  height: 6px;
+  background-color: #323746;
+}
+
+.menu li {
+  display: inline-block;
+  color: white;
+  font-family: LatoBold;
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+}
+
+.menu li:first-child {
+  color: #f06c64;
+}
+
+.menu li:nth-child(n + 2) {
+  padding-left: 26px;
+  list-style: circle;
+}
+
+/*.menu li:before {
+  color: #3a3e4d;
+  content: "•"; 
+ 
+}*/
+.arrows {
+  width: 16px;
+  height: 27px;
+  background-color: #f06c64;
+}
+
+.leftImg,
+.rightImg {
+  position: absolute;
+  top: 281px;
+}
+
+.arrows img:hover {
+  background-color: whitesmoke;  
+ }
+
+.leftImg {
+  left: 42px;
+}
+
+.rightImg {
+  right: 40px;
+}
+
+.line_2 {
+  position: absolute;
+  top: 594px;
+  width: 1020px;
+  height: 6px;
+  background-color: #ea676b;
+}
+
+.footHead {
+  position: absolute;
+  top: 27px;
+  left: 40px;
+  font-family: LatoBlack;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  color: rgba(102, 109, 137, 255);
+  text-align: justify;
+}
+
+.content {
+  position: absolute;
+  top: 114px;
+  left: 39px;
+  right: 40px;
+  font-family: LatoLight;
+  font-size: 18px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  line-height: 30px;
+  color: rgba(118, 126, 158, 255);
+  text-align: justify;
+}
+
+.vertPhone {
+  position: absolute;
+  top: -17px;
+  left: 110px;
+}
+
+.horPhone {
+  position: absolute;
+  top: 69px;
+  right: 80px;
+}
+
+.gridTable {
+  display: grid;
+  position: relative;
+  padding-top: 220px;
+  padding-left: 40px;
+  grid-template-columns: 320px 320px 320px;
+  grid-template-rows: 123px 123px;
+}
+
+.pen,
+.bulb,
+.heart,
+.phone,
+.bubble,
+.star {
+  position: relative;
+  left: -15%;
+  top: -10%;
+}
+
+.pen {
+  left: -16.2%;
+}
+
+.bulb {
+  top: -11.2%;
+}
+
+.heart {
+  top: -11%;
+  left: -17%;
+}
+
+.bubble {
+  top: -11%;
+  left: -17%;
+}
+
+.star {
+  top: -10.2%;
+  left: -17%;
+}
+
+.gridHead,
+.gridHead1_2,
+.gridHead2_1 {
+  display: inline-block;
+  position: relative;
+  left: -26px;
+  top: -47px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: LatoBlack;
+}
+
+.gridHead1_2 {
+  left: -18px;
+}
+
+.gridHead2_1 {
+  left: -17px;
+}
+
+.elips1_2 {
+  left: 15px;
+}
+
+.El1_2 {
+  left: 15px;
+}
+
+.gridContent {
+  display: inline-block;
+  position: relative;
+  top: -39px;
+  left: 80px;
+  width: 220px;
+  height: 128px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: LatoRegular;
+  text-align: justify;
+  
+}
+
+
+.line_3 {
+  width: 1020px;
+  height: 6px;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: LatoBold;
+  src: url(/assets/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: LatoBlack;
+  src: url(/assets/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: LatoLight;
+  src: url(/assets/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: LatoRegular;
+  src: url(/assets/fonts/Lato-Regular.ttf);
+}
