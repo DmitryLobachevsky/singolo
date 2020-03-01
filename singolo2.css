@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0;
+  width: 1020px;
+}
+
+.Portfolio {
+  position: relative;
+  height: 870px;
+  background-color: #2d303a;
+  margin-bottom: -30px;
+  padding: 0;
+}
+
+h1 {
+  position: relative;
+  top: 7.9%;
+  left: 3.9%;
+  margin: 0;
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: LatoBlack;
+  font-weight: 900;
+  text-align: left;
+}
+
+.headText {
+  position: relative;
+  top: 9%;
+  left: 3.9%;
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: LatoLight;
+  text-align: justify;
+}
+
+.headButton {
+  position: relative;
+  top: 5%;
+  left: 0.1%;
+}
+
+.headButton li {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  color: #767e9e;
+  font-family: LatoRegular;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #666d89;
+}
+
+.headButton li:hover {
+  color: white;
+  border: 1px solid #c5c5c5;
+}
+
+.headButton li:first-child {
+  color: #dedede;
+  width: 27px;
+  border: 1px solid #c5c5c5;
+}
+
+.headButton li:nth-child(n + 2) {
+  padding-left: 0.2%;
+  margin-left: 0.7%;
+}
+.headButton li:nth-child(2) {
+  width: 72px;
+}
+
+.headButton li:nth-child(3) {
+  width: 88px;
+}
+
+.headButton li:nth-child(4) {
+  width: 54px;
+}
+
+.gridImg {
+  position: absolute;
+  top: 22.5%;
+  left: 3.9%;
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px;
+  grid-template-rows: 207px 207px 207px;
+}
+
+.darkline {
+  position: absolute;
+  bottom: 0;
+  width: 1020px;
+  height: 6px;
+  background-color: #323746;
+}
+
+.About_Us {
+  position: relative;
+  height: 728px;
+  background-color: #f2f2f2;
+}
+
+.headDown {
+  position: relative;
+  top: 9.4%;
+  left: 3.9%;
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: LatoBlack;
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: -0.007em;
+}
+
+.textDown {
+  position: relative;
+  top: 8.9%;
+  left: 3.9%;
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: LatoLight;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.gridDown {
+  position: absolute;
+  display: grid;
+  top: 30%;
+  left: 3.9%;
+  grid-template-columns: 319px 321px 320px;
+  grid-template-rows: fr;
+}
+
+.gameName {
+  position: relative;
+  top: 2.9%;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: LatoBlack;
+  text-align: left;
+  word-spacing: -0.05em;
+}
+
+.gameText {
+  position: relative;
+  top: 5%;
+  width: 300px;
+  height: 88px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: LatoRegular;
+  text-align: justify;  
+  word-spacing: -0.05em;
+}
+
+.messages {
+  position: relative;
+  display: inline-block;
+  
+}
+.Facebook {
+  margin-right: 0.1em;
+}
+
+.Goole {
+  margin-left: 0.2em;
+  margin-right: 0;
+}
+
+.Twitter {
+  margin-left: 0.05em;
+}
+
+.Linkedin {
+  margin-left: 0.05em;
+}
+
+.messages img:hover {
+  background-color: rgb(146, 235, 235);
+}
+
+.whiteline {
+  position: absolute;
+  bottom: 0;
+  width: 1020px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: LatoBold;
+  src: url(/assets/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: LatoBlack;
+  src: url(/assets/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: LatoLight;
+  src: url(/assets/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: LatoRegular;
+  src: url(/assets/fonts/Lato-Regular.ttf);
+}
