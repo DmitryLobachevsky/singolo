@@ -534,6 +534,15 @@ body {
   .form-inner textarea {
     resize: none;
   }
+
+
+  .form-inner input[type="text"]:invalid {
+    border: 2px dashed rgb(80, 25, 25);
+  }
+  
+  .form-inner input[type="email"]:invalid {
+    border: 2px dashed rgb(80, 25, 25);
+  }
   
   input[type="text"]::-webkit-input-placeholder {
     color: #f48c8f;

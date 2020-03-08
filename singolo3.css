@@ -98,6 +98,14 @@ textarea::-moz-placeholder {
   text-align: center;
 }
 
+.form-inner input[type="text"]:invalid {
+  border: 2px dashed rgb(80, 25, 25);
+}
+
+.form-inner input[type="email"]:invalid {
+  border: 2px dashed rgb(80, 25, 25);
+}
+
 .contact_inf {
   display: inline-block;
   position: relative;
