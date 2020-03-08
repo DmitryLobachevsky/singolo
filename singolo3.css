@@ -1,0 +1,206 @@
+body {
+  position: relative;
+  width: 1020px;
+  margin: 0;
+  padding: 0;
+}
+
+.get_a_quote {
+  height: 648px;
+  background-color: #f06c64;
+}
+
+h1 {
+  position: relative;
+  margin: 0;
+  left: 3.9%;
+  top: 10.5%;
+  font-size: 30px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: LatoBlack;
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: -0.01rem;
+}
+
+.head3Text {
+  position: relative;
+  width: 940px;
+  left: 3.9%;
+  top: 14.6%;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f0d8d9;
+  font-family: LatoLight;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.decor {
+  position: absolute;
+  display: inline-block;
+  max-width: 590px;
+  top: 29.7%;
+  left: 3.9%;
+}
+
+.form-inner input,
+.form-inner textarea {
+  display: inline-block;
+  position: relative;
+  width: 100.2%;
+  padding: 0 14px;
+  margin-bottom: 16px;
+  color: #f48c8f;
+  background-color: #d6564f;
+  line-height: 38px;
+  border-width: 0;
+  border-radius: 5px;
+  font-size: 0.72em;
+  font-family: LatoRegular;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.2pt;
+}
+
+.form-inner textarea {
+  height: 202px;
+  font-weight: 406e;
+  font-size: 0.72em;
+}
+
+.form-inner textarea {
+  resize: none;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: #f48c8f;
+}
+input[type="text"]::-moz-placeholder {
+  color: #f48c8f;
+}
+
+::-webkit-input-placeholder {
+  color: #f48c8f;
+}
+textarea::-moz-placeholder {
+  color: #f48c8f;
+}
+
+.contact_inf {
+  display: inline-block;
+  position: relative;
+  left: 66.65%;
+  top: 142px;
+}
+
+.rightHead {
+  font-size: 18px;
+  line-height: 18px;
+  color: #f0d8d9;
+  font-family: LatoBlack;
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: -0.006em;
+}
+
+.contact_text {
+  left: -0.2%;
+  top: 10px;
+}
+
+.contact_text,
+.need_information {
+  position: relative;
+  width: 300px;
+  height: 175px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+  font-family: LatoRegular;
+  font-weight: 400;
+  letter-spacing: -0.02pt;
+  text-align: justify;
+}
+
+.geo_inf {
+  display: grid;
+  position: relative;
+  grid-template-columns: 25px 150px;
+  grid-template-rows: 21px 22px 21px;
+  top: -55px;
+  left: 3px;
+}
+
+.minPhone {
+  position: absolute;
+  top: 24px;
+  left: -2px;
+}
+
+.mail {
+  position: absolute;
+  top: 49px;
+  left: -3px;
+}
+
+.need_information {
+  top: -2px;
+  left: -3.6%;
+}
+
+.pinkLine {
+  position: relative;
+  height: 6px;
+  background-color: #ea676b;
+  top: 316px;
+}
+
+.bg_footer {
+  position: relative;
+  margin-top: 6px;
+  width: 1020px;
+  height: 76px;
+  background-color: #2d303a;
+}
+
+._2013 {
+  position: relative;
+  top: 30px;
+  left: 4.1%;
+}
+
+.message2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  max-width: 160px;
+  top: 3px;
+  left: 827px;
+}
+
+.message2 img {
+  margin-right: 1px;
+}
+
+@font-face {
+  font-family: LatoBold;
+  src: url(/assets/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: LatoBlack;
+  src: url(/assets/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: LatoLight;
+  src: url(/assets/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: LatoRegular;
+  src: url(/assets/fonts/Lato-Regular.ttf);
+}
