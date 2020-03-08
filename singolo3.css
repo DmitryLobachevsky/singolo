@@ -129,7 +129,8 @@ textarea::-moz-placeholder {
 }
 
 .contact_text,
-.need_information {
+.need_information,
+a {
   position: relative;
   width: 300px;
   height: 175px;
@@ -139,6 +140,7 @@ textarea::-moz-placeholder {
   font-family: LatoRegular;
   font-weight: 400;
   letter-spacing: -0.02pt;
+  text-decoration: none;
   text-align: justify;
 }
 
