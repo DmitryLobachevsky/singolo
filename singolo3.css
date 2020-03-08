@@ -89,6 +89,15 @@ textarea::-moz-placeholder {
   color: #f48c8f;
 }
 
+.form-inner input[type="submit"] {
+  width: 620px;
+  background: #f69a73;
+  border-bottom: 4px solid #d87d56;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
 .contact_inf {
   display: inline-block;
   position: relative;
@@ -166,10 +175,18 @@ textarea::-moz-placeholder {
   background-color: #2d303a;
 }
 
-._2013 {
+.Copy {
   position: relative;
   top: 30px;
   left: 4.1%;
+  color: #666d89;
+  font-family: LatoRegular;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+}
+
+.Copy span:hover {
+    color: white;
 }
 
 .message2 {
@@ -177,12 +194,16 @@ textarea::-moz-placeholder {
   margin: 0;
   padding: 0;
   max-width: 160px;
-  top: 3px;
+  top: 6px;
   left: 827px;
 }
 
 .message2 img {
   margin-right: 1px;
+}
+
+.message2 img:hover {
+    background-color: #7280b5;
 }
 
 @font-face {
