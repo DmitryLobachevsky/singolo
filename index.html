@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <link href="index.css" type="text/css" rel="stylesheet">
     <title>All Singolo</title>
 </head>
@@ -12,25 +13,41 @@
             <header class="header">
               <h1 class="h1_1">Singolo<span class="_h1_1">*</span></h1>
               <ul class="menu">
-                <li>HOME</li>
-                <li>SERVICES</li>
-                <li>PORTFOLIO</li>
-                <li>ABOUT</li>
-                <li>CONTACT</li>
+                <li><a href="#Home">HOME</a></li>
+                <li><a href="#Services">SERVICES</a></li>
+                <li><a href="#Portfolio">PORTFOLIO</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#Contact" >CONTACT</a></li>
               </ul>
             </header>
             <div class="line"></div>
             <div class="main">
-              <div class="arrows">
-              <img src="/assets/img/left.png" alt="" class="leftImg">
-              <img src="/assets/img/right.png" alt="" class="rightImg">
+              <div class="arrows ">
+                <img src="/assets/img/left.png" alt="" class="leftImg slider__control slider__control_left">
+                <img src="/assets/img/right.png" alt="" class="rightImg slider__control slider__control_right slider__control_show">
               </div>
-              <img src="/assets/img/iPhone Vertical.png" alt="" class="vertPhone">
-              <img src="/assets/img/iPhone Horizontal.png" alt="" class="horPhone">
+              <div class="slider"></div>
+                <div class="slider__wrapper">
+                   <div class="slide_2 slide_item">
+                     <img src="/assets/img/slide_2.png" alt="slide_2">
+                   </div>
+                  <div class="slide_1 slide_item">
+                   <img src="/assets/img/Background.png" alt="Back" class="slide1_back">
+                   <img src="/assets/img/iPhone Vertical.png" alt="" class="vertPhone" id="click_on_V" onclick="FuncImagesV('on')">
+                   <div id="click_off_V" onclick="FuncImagesV('off')">
+                    <img src="/assets/img/PhoneOffV.png" alt="OffV"  >
+                   </div>
+                   <img src="/assets/img/iPhone Horizontal.png" alt="" class="horPhone" id="click_on_H" onclick="FuncImagesH('on')">
+                   <div id="click_off_H" onclick="FuncImagesH('off')"> 
+                    <img src="/assets/img/PhoneOffH.png" alt="OffH" >
+                   </div>
+                   
+                  </div>
+              </div>
               <div class="line_2"></div>
             </div>
-            <div class="footer"> 
-              <p class="footHead">Our Services</p>
+            <div class="footer" id="Services"> 
+              <p class="footHead" >Our Services</p>
       
               <div class="content">Fusce dapibus, tellus ac cursus commodo,
                   tortor mauris condimentum. Duis mollis, non commodo luctus,
@@ -103,59 +120,59 @@
 
     <div class="singolo2">
         <div class="wrapper2">
-            <div class="Portfolio">
+            <div class="Portfolio" id="Portfolio">
               <h1 >Portfolio</h1>
               <p class="headText">
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
                 lacinia odio sem nec elit.
               </p>
-              <ul class="headButton">
-                <li>All</li>
-                <li>Web Design</li>
-                <li>Graphic Design</li>
-                <li>Artwork</li>
+            <ul class="headButton"  >
+                <li id="All" onclick="shuffleImages(this.id)">All</li>
+                <li id="Web Design" onclick="shuffleImages(this.id)">Web Design</li>
+                <li id="Graphic Design" onclick="shuffleImages(this.id)">Graphic Design</li>
+                <li id="Artwork" onclick="shuffleImages(this.id)">Artwork</li>
               </ul>
-              <div class="gridImg">
+              <div class="gridImg" id="Portfolio_Img">
                 <div>
-                  <img src="/assets/img_singolo2/1_1.png" alt="1_1" />
+                  <img src="/assets/img_singolo2/1_1.png" alt="1_1" id="pic1_1"  onclick="borderSetter(this.id)" />
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/1_2.png" alt="1_2" />
+                  <img src="/assets/img_singolo2/1_2.png" alt="1_2" id="pic1_2"  onclick="borderSetter(this.id)" />
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/1_3.png" alt="1_3" />
+                  <img src="/assets/img_singolo2/1_3.png" alt="1_3" id="pic1_3"  onclick="borderSetter(this.id)" />
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/1_4.png" alt="1_4" />
+                  <img src="/assets/img_singolo2/1_4.png" alt="1_4" id="pic1_4" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/2_1.png" alt="2_1" />
+                  <img src="/assets/img_singolo2/2_1.png" alt="2_1" id="pic2_1" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/2_2.png" alt="2_2" />
+                  <img src="/assets/img_singolo2/2_2.png" alt="2_2" id="pic2_2" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/2_3.png" alt="2_3" />
+                  <img src="/assets/img_singolo2/2_3.png" alt="2_3" id="pic2_3" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/2_4.png" alt="2_4" />
+                  <img src="/assets/img_singolo2/2_4.png" alt="2_4" id="pic2_4" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/3_1.png" alt="3_1" />
+                  <img src="/assets/img_singolo2/3_1.png" alt="3_1" id="pic3_1" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/3_2.png" alt="3_2" />
+                  <img src="/assets/img_singolo2/3_2.png" alt="3_2" id="pic3_2" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/3_3.png" alt="3_3" />
+                  <img src="/assets/img_singolo2/3_3.png" alt="3_3" id="pic3_3" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/3_4.png" alt="3_4" />
+                  <img src="/assets/img_singolo2/3_4.png" alt="3_4" id="pic3_4" onclick="borderSetter(this.id)"/>
                 </div>
               </div>
               <div class="darkline"></div>
             </div>
-            <div class="About_Us">
+            <div class="About_Us" id="About">
               <p class="headDown">About Us</p>
               <p class="textDown">Fusce dapibus, tellus ac cursus commodo,
                 tortor mauris condimentum. Duis mollis, non commodo luctus,
@@ -205,7 +222,7 @@
 
     <div class="singolo3">
         <div class="wrapper3">
-            <div class="get_a_quote">
+            <div class="get_a_quote" id="Contact">
               <h1 class="heder3">Get a Quote</h1>
               <div class="head3Text">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
@@ -213,14 +230,14 @@
                 lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
                 tortor mauris condimentum nibh.
               </div>
-              <div class="forma1">
-                <form class="decor" action="/login" method="post">
+              <div class="forma1" onsubmit="FormInformation('form1', 'name', 'email', 'subject'); return false">
+                <form class="decor" id="form1" action="/login" method="post" >
                   <div class="form-inner"> 
-                      <input type="text" placeholder="Name (Required)">
-                      <input type="email" placeholder="Email (Required)">
-                      <input type="text" placeholder="Subject">
+                      <input type="text" id="name" required placeholder="Name (Required)">
+                      <input type="email" id="email" required placeholder="Email (Required)">
+                      <input type="text" id="subject" required placeholder="Subject">
                       <textarea placeholder="Describe your project in detail..." rows="4"></textarea>
-                      <input type="submit" value="Submit">
+                      <input type="submit" value="Submit" >
                   </div>
                 </form>
               </div>
