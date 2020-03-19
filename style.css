@@ -1,0 +1,736 @@
+body {
+    position: relative;
+    width: 1020px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Singolo1*/
+  
+  .header {
+    position: relative;
+    height: 89px;
+    background-color: #2d303a;
+    box-shadow: 0, -10px, 6px, #323746;
+  }
+  
+  .main {
+    position: relative;
+    height: 600px;
+    background-color: #f06c64;
+  }
+  
+  .footer {
+    position: relative;
+    height: 495px;
+    background-color: #f2f2f2;
+  }
+  
+  .h1_1 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    margin: 0;
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: LatoBold;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: -0.3px;
+  }
+  ._h1_1 {
+    color: #f06c64;
+  }
+  
+  .menu {
+    position: relative;
+    top: 47px;
+    left: 608px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 6px;
+  }
+  
+  .line {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+  }
+  
+  .menu li {
+    display: inline-block;
+    color: white;
+    font-family: LatoBold;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 0px;
+  }
+  
+  .menu li:hover {
+    text-decoration: underline;
+  }
+  w .menu li:first-child {
+    color: #f06c64;
+  }
+  
+  .menu li:nth-child(n + 2) {
+    padding-left: 26px;
+    list-style: circle;
+  }
+  
+  .arrows {
+    width: 16px;
+    height: 27px;
+    background-color: #f06c64;
+  }
+  
+  .leftImg,
+  .rightImg {
+    position: absolute;
+    top: 281px;
+    z-index: 2;
+  }
+  
+  .arrows img:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+  }
+  
+  .leftImg {
+    left: 42px;
+  }
+  
+  .rightImg {
+    right: 40px;
+  }
+  
+  .leftImg, .rightImg img:hover{
+   cursor: pointer;
+  }
+  
+  #click_off_V {
+    position: absolute;
+    display: none;
+    top: 19.6%;
+    left: 12.4%;
+  }
+  #click_off_H {
+    position: absolute;
+    display: none;
+    top: 31.4%;
+    left: 47.5%;
+  }
+  
+  #click_on_V:hover{
+    cursor: pointer;
+  }
+  
+  #click_on_H:hover{
+    cursor: pointer;
+  }
+  
+  
+  .slide_2 {
+    position: absolute;
+    display: none;
+    top: 0;
+    z-index: 0;
+  }
+  
+  .line_2 {
+    position: absolute;
+    top: 690px;
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+  }
+  
+  .footHead {
+    position: absolute;
+    top: 27px;
+    left: 40px;
+    font-family: LatoBlack;
+    font-size: 31px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    color: rgba(102, 109, 137, 255);
+    text-align: justify;
+  }
+  
+  .vertPhone {
+    position: absolute;
+    top: -17px;
+    left: 110px;
+  }
+  
+  .horPhone {
+    position: absolute;
+    top: 69px;
+    right: 80px;
+  }
+  
+  .content {
+    position: absolute;
+    top: 113px;
+    left: 40px;
+    right: 40px;
+    font-family: LatoLight;
+    font-size: 18px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 30px;
+    color: rgba(118, 126, 158, 255);
+    text-align: justify;
+  }
+  
+  .gridTable {
+    display: grid;
+    position: relative;
+    top: -1px;
+    padding-top: 220px;
+    padding-left: 40px;
+    grid-template-columns: 319px 320px 320px;
+    grid-template-rows: 123px 123px;
+  }
+  
+  .pen,
+  .bulb,
+  .heart,
+  .phone,
+  .bubble,
+  .star {
+    position: relative;
+    left: -15%;
+    top: -10%;
+  }
+  
+  .pen {
+    left: -16.2%;
+  }
+  
+  .bulb {
+    top: -10.5%;
+  }
+  
+  .heart {
+    top: -11%;
+    left: -16.5%;
+  }
+  
+  .bubble {
+    top: -11%;
+    left: -16.3%;
+  }
+  
+  .star {
+    top: -10.2%;
+    left: -16.5%;
+  }
+  
+  .gridHead,
+  .gridHead1_2,
+  .gridHead2_1,
+  .gridHead1_3,
+  .gridHead2_3 {
+    display: inline-block;
+    position: relative;
+    left: -26px;
+    top: -46px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: LatoBlack;
+  }
+  
+  .gridHead1_2 {
+    left: -16px;
+  }
+  
+  .gridHead2_1 {
+    left: -17px;
+  }
+  
+  .gridHead1_3,
+  .gridHead2_3 {
+    left: -24px;
+  }
+  
+  .elips1_2 {
+    left: 15px;
+  }
+  
+  .El1_2 {
+    left: 15px;
+  }
+  
+  .gridContent {
+    display: inline-block;
+    position: relative;
+    top: -39px;
+    left: 80px;
+    width: 220px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: LatoRegular;
+    text-align: justify;
+  }
+  
+  .line_3 {
+    position: relative;
+    width: 1020px;
+    height: 6px;
+    bottom: -28px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+  }
+  
+  /*Singolo2*/
+  
+  .wrapper2 {
+    margin-top: 4px;
+  }
+  
+  .Portfolio {
+    position: relative;
+    height: 870px;
+    background-color: #2d303a;
+    margin-bottom: -30px;
+    padding: 0;
+  }
+  
+  .h1_2 {
+    position: relative;
+    top: 7.9%;
+    left: 3.9%;
+    margin: 0;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: LatoBlack;
+    font-weight: 900;
+    text-align: left;
+  }
+  
+  .headText {
+    position: relative;
+    top: 9%;
+    left: 3.9%;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: LatoLight;
+    text-align: justify;
+  }
+  
+  .headButton {
+    position: relative;
+    top: 5%;
+    left: 0.1%;
+  }
+  
+  .headButton li {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #767e9e;
+    font-family: LatoRegular;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #666d89;
+  }
+  
+  .headButton li:hover {
+    color: white;
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+  }
+  
+  .headButton li:first-child {
+    /* color: #dedede; */
+    width: 27px;
+   /* px solid #c5c5c5; */
+  }
+  
+  .headButton li:nth-child(n + 2) {
+    padding-left: 0.2%;
+    margin-left: 0.7%;
+  }
+  .headButton li:nth-child(2) {
+    width: 72px;
+  }
+  
+  .headButton li:nth-child(3) {
+    width: 88px;
+  }
+  
+  .headButton li:nth-child(4) {
+    width: 54px;
+  }
+  
+  
+  .gridImg {
+    position: absolute;
+    top: 22.5%;
+    left: 3.9%;
+    display: grid;
+    border: 0;
+    grid-template-columns: 240px 240px 240px 240px;
+    grid-template-rows: 207px 207px 207px;
+  }
+  
+  #Portfolio_Img img:hover {
+    cursor: pointer;
+  }
+  
+  .darkline {
+    position: absolute;
+    bottom: 0;
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+  }
+  
+  .About_Us {
+    position: relative;
+    height: 728px;
+    background-color: #f2f2f2;
+  }
+  
+  .headDown {
+    position: relative;
+    top: 9.4%;
+    left: 3.9%;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: LatoBlack;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.007em;
+  }
+  
+  .textDown {
+    position: relative;
+    top: 8.9%;
+    left: 3.9%;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: LatoLight;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .gridDown {
+    position: absolute;
+    display: grid;
+    top: 30%;
+    left: 3.9%;
+    grid-template-columns: 319px 321px 320px;
+    grid-template-rows: fr;
+  }
+  
+  .gameName {
+    position: relative;
+    top: 2.9%;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: LatoBlack;
+    text-align: left;
+    word-spacing: -0.05em;
+  }
+  
+  .gameText {
+    position: relative;
+    top: 5%;
+    width: 300px;
+    height: 88px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: LatoRegular;
+    text-align: justify;
+    word-spacing: -0.05em;
+  }
+  
+  .messages {
+    position: relative;
+    display: inline-block;
+  }
+  .Facebook {
+    margin-right: 0.1em;
+  }
+  
+  .Goole {
+    margin-left: 0.2em;
+    margin-right: 0;
+  }
+  
+  .Twitter {
+    margin-left: 0.05em;
+  }
+  
+  .Linkedin {
+    margin-left: 0.05em;
+  }
+  
+  .messages img:hover {
+    background-color: rgb(146, 235, 235);
+  }
+  
+  .whiteline {
+    position: absolute;
+    bottom: 0;
+    width: 1020px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+  
+  /*Singolo3*/
+  
+  .wrapper3 {
+    margin-top: 6px;
+  }
+  
+  .get_a_quote {
+    height: 648px;
+    background-color: #f06c64;
+  }
+  
+  h1 {
+    position: relative;
+    margin: 0;
+    left: 3.9%;
+    top: 10.5%;
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: LatoBlack;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.01rem;
+  }
+  
+  .head3Text {
+    position: relative;
+    width: 940px;
+    left: 3.9%;
+    top: 14.6%;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: LatoLight;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .decor {
+    position: absolute;
+    display: inline-block;
+    max-width: 590px;
+    top: 85.46%;
+    left: 3.9%;
+  }
+  
+  .form-inner input,
+  .form-inner textarea {
+    display: inline-block;
+    position: relative;
+    width: 100.2%;
+    padding: 0 14px;
+    margin-bottom: 16px;
+    color: #f48c8f;
+    background-color: #d6564f;
+    line-height: 38px;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 0.72em;
+    font-family: LatoRegular;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: 0.2pt;
+  }
+  
+  .form-inner textarea {
+    height: 202px;
+    font-weight: 406e;
+    font-size: 0.72em;
+  }
+  
+  .form-inner textarea {
+    resize: none;
+  }
+  
+  .form-inner input[type="text"]:invalid {
+    border: 2px dashed rgb(80, 25, 25);
+  }
+  
+  .form-inner input[type="email"]:invalid {
+    border: 2px dashed rgb(80, 25, 25);
+  }
+  
+  input[type="text"]::-webkit-input-placeholder {
+    color: #f48c8f;
+  }
+  input[type="text"]::-moz-placeholder {
+    color: #f48c8f;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #f48c8f;
+  }
+  textarea::-moz-placeholder {
+    color: #f48c8f;
+  }
+  
+  .form-inner input[type="submit"] {
+    width: 620px;
+    background: #f69a73;
+    border-bottom: 4px solid #d87d56;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contact_inf {
+    display: inline-block;
+    position: relative;
+    left: 66.65%;
+    top: 142px;
+  }
+  
+  .rightHead {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: LatoBlack;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.006em;
+  }
+  
+  .contact_text {
+    left: -0.2%;
+    top: 10px;
+  }
+  
+  .contact_text,
+  .need_information,
+  a {
+    position: relative;
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: LatoRegular;
+    font-weight: 400;
+    letter-spacing: -0.02pt;
+    text-decoration: none;
+    text-align: justify;
+  }
+  
+  .geo_inf {
+    display: grid;
+    position: relative;
+    grid-template-columns: 25px 150px;
+    grid-template-rows: 21px 22px 21px;
+    top: -55px;
+    left: 3px;
+  }
+  
+  .minPhone {
+    position: absolute;
+    top: 24px;
+    left: -2px;
+  }
+  
+  .mail {
+    position: absolute;
+    top: 49px;
+    left: -3px;
+  }
+  
+  .need_information {
+    top: -2px;
+    left: -3.6%;
+  }
+  
+  .pinkLine {
+    position: relative;
+    height: 6px;
+    background-color: #ea676b;
+    top: 316px;
+  }
+  
+  .bg_footer {
+    position: relative;
+    margin-top: 6px;
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+  }
+  
+  .Copy {
+    position: relative;
+    top: 30px;
+    left: 4.1%;
+    color: #666d89;
+    font-family: LatoRegular;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+  }
+  
+  .Copy span:hover {
+    color: white;
+  }
+  
+  .message2 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    max-width: 160px;
+    top: 6px;
+    left: 827px;
+  }
+  
+  .message2 img {
+    margin-right: 1px;
+  }
+  
+  .message2 img:hover {
+    background-color: #7280b5;
+  }
+  
+  @font-face {
+    font-family: LatoBold;
+    src: url(/assets/fonts/Lato-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: LatoBlack;
+    src: url(/assets/fonts/Lato-Black.ttf);
+  }
+  
+  @font-face {
+    font-family: LatoLight;
+    src: url(/assets/fonts/Lato-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: LatoRegular;
+    src: url(/assets/fonts/Lato-Regular.ttf);
+  }
+  
