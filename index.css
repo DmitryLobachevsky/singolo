@@ -96,6 +96,7 @@ w .menu li:first-child {
 
 .arrows img:hover {
   background-color: whitesmoke;
+  cursor: pointer;
 }
 
 .leftImg {
@@ -104,6 +105,10 @@ w .menu li:first-child {
 
 .rightImg {
   right: 40px;
+}
+
+.leftImg, .rightImg img:hover{
+ cursor: pointer;
 }
 
 #click_off_V {
@@ -128,20 +133,16 @@ w .menu li:first-child {
 }
 
 
-.slide1_back {
-  position: absolute;
-  top: 0;
-}
-
 .slide_2 {
   position: absolute;
+  display: none;
   top: 0;
   z-index: 0;
 }
 
 .line_2 {
   position: absolute;
-  top: 594px;
+  top: 690px;
   width: 1020px;
   height: 6px;
   background-color: #ea676b;

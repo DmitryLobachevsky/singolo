@@ -13,37 +13,35 @@
             <header class="header">
               <h1 class="h1_1">Singolo<span class="_h1_1">*</span></h1>
               <ul class="menu">
-                <li><a href="#Home">HOME</a></li>
-                <li><a href="#Services">SERVICES</a></li>
-                <li><a href="#Portfolio">PORTFOLIO</a></li>
-                <li><a href="#About">ABOUT</a></li>
-                <li><a href="#Contact" >CONTACT</a></li>
+                <li><a href="#Home" id="h" onclick="MenuCollor(this.id)">HOME</a></li>
+                <li><a href="#Services" id="s" onclick="MenuCollor(this.id)">SERVICES</a></li>
+                <li><a href="#Portfolio" id="p" onclick="MenuCollor(this.id)">PORTFOLIO</a></li>
+                <li><a href="#About" id="a" onclick="MenuCollor(this.id)">ABOUT</a></li>
+                <li><a href="#Contact" id="c" onclick="MenuCollor(this.id)">CONTACT</a></li>
               </ul>
             </header>
             <div class="line"></div>
             <div class="main">
-              <div class="arrows ">
-                <img src="/assets/img/left.png" alt="" class="leftImg slider__control slider__control_left">
-                <img src="/assets/img/right.png" alt="" class="rightImg slider__control slider__control_right slider__control_show">
-              </div>
-              <div class="slider"></div>
-                <div class="slider__wrapper">
-                   <div class="slide_2 slide_item">
-                     <img src="/assets/img/slide_2.png" alt="slide_2">
-                   </div>
-                  <div class="slide_1 slide_item">
-                   <img src="/assets/img/Background.png" alt="Back" class="slide1_back">
-                   <img src="/assets/img/iPhone Vertical.png" alt="" class="vertPhone" id="click_on_V" onclick="FuncImagesV('on')">
-                   <div id="click_off_V" onclick="FuncImagesV('off')">
-                    <img src="/assets/img/PhoneOffV.png" alt="OffV"  >
-                   </div>
-                   <img src="/assets/img/iPhone Horizontal.png" alt="" class="horPhone" id="click_on_H" onclick="FuncImagesH('on')">
-                   <div id="click_off_H" onclick="FuncImagesH('off')"> 
-                    <img src="/assets/img/PhoneOffH.png" alt="OffH" >
-                   </div>
-                   
+              <div class="slider__wrapper">
+                <div class="arrows ">
+                  <img src="/assets/img/left.png" alt="" class="leftImg" onclick="plusSlide()">
+                  <img src="/assets/img/right.png" alt="" class="rightImg" onclick="minusSlide()">
+                </div>
+                <div class="slide_2 slide_item">
+                  <img src="/assets/img/slide_2.png" alt="slide_2">
+                </div>
+                <div class="slide_1 slide_item">
+                  <img src="/assets/img/iPhone Vertical.png" alt="" class="vertPhone" id="click_on_V" onclick="FuncImagesV('on')">
+                  <div id="click_off_V" onclick="FuncImagesV('off')">
+                   <img src="/assets/img/PhoneOffV.png" alt="OffV"  >
                   </div>
+                  <img src="/assets/img/iPhone Horizontal.png" alt="" class="horPhone" id="click_on_H" onclick="FuncImagesH('on')">
+                  <div id="click_off_H" onclick="FuncImagesH('off')"> 
+                   <img src="/assets/img/PhoneOffH.png" alt="OffH" >
+                  </div>
+                </div>
               </div>
+            </div>
               <div class="line_2"></div>
             </div>
             <div class="footer" id="Services"> 
@@ -230,13 +228,13 @@
                 lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
                 tortor mauris condimentum nibh.
               </div>
-              <div class="forma1" onsubmit="FormInformation('form1', 'name', 'email', 'subject'); return false">
+              <div class="forma1" onsubmit="FormInformation('form1', 'subject', 'describe'); return false">
                 <form class="decor" id="form1" action="/login" method="post" >
                   <div class="form-inner"> 
                       <input type="text" id="name" required placeholder="Name (Required)">
                       <input type="email" id="email" required placeholder="Email (Required)">
                       <input type="text" id="subject" required placeholder="Subject">
-                      <textarea placeholder="Describe your project in detail..." rows="4"></textarea>
+                      <textarea id="describe" placeholder="Describe your project in detail..." rows="4"></textarea>
                       <input type="submit" value="Submit" >
                   </div>
                 </form>

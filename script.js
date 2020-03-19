@@ -1,12 +1,11 @@
-"strict mode"
-$(document).ready(function(){
-    $("#menu").on("click","a", function (event) {
-        event.preventDefault();
-        let id  = $(this).attr('href'),
-            top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1500);
-    });
-});
+function MenuCollor(id){
+    elem = document.getElementById(id)
+    if (tabsToggler.prev_elem !== undefined){
+        tabsToggler.prev_elem.style.color = "white"
+    }
+    tabsToggler.prev_elem = elem
+    elem.style.color = "#f06c64"
+}
 
 
 function FuncImagesV(str) {
@@ -58,10 +57,53 @@ function FuncImagesV(str) {
  }
 
 
- function FormInformation(FormId, NameId, EmailId, SubjectId){
-     let name = document.forms[FormId].elements[NameId].value
-     let email = document.forms[FormId].elements[EmailId].value
-     let subject = document.forms[FormId].elements[SubjectId].value
-     alert(`${name}\n${email}\n${subject}`)
+ function FormInformation(FormId, SubjectId, DescribeId){
+    let subject = document.forms[FormId].elements[SubjectId].value
+    let desrc = document.forms[FormId].elements[DescribeId].value
+    if((!desrc) && (!subject)){
+        alert(`${"The letter was sent!"}\n${"No subjest"}\n${"No description"}`);
+        return false;
+    }
+    if(!subject){
+        alert(`${"The letter was sent!"}\n${"No subjest"}\n${"Descripstion: "+desrc}`);
+        return false;
+    }
+    
+    if(!desrc){
+        alert(`${"The letter was sent!"}\n${"Subject:"+subject}\n${"No description"}`);
+        return false;
+    }
+    
+    alert(`${"The letter was sent!"}\n${"Subject: "+subject}\n${"Description: "+desrc}`)
     return false;
  }
+
+ var slideIndex = 1;
+slide(slideIndex);
+
+/* Функция увеличивает индекс на 1, показывает следующй слайд*/
+function plusSlide() {
+    slide(slideIndex += 1);
+}
+
+/* Функция уменьшяет индекс на 1, показывает предыдущий слайд*/
+function minusSlide() {
+    slide(slideIndex -= 1);  
+}
+
+
+/* Основная функция слайдера */
+function slide(n) {
+    var i;
+    var slides = document.getElementsByClassName("slide_item");
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex - 1].style.display = "block";
+}
