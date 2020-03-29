@@ -1,0 +1,213 @@
+@media screen and (min-width: 320px) and (max-width: 374px){
+    html{
+  
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+  }
+  
+    body
+    {
+      min-width: 320px;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    
+    .header h1 {
+      left: 50%;
+      margin-left: -45px;
+    }
+  
+    .main {
+      height: 221px;
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .leftImg,
+    .rightImg {
+      top: 40%;
+      margin: 0;
+    }
+  
+    .vertPhone {
+      object-fit: cover;
+      width: 88px;
+      top: 10%;
+      left: 13.4%;
+    }
+  
+    .horPhone {
+      object-fit: cover;
+      width: 178px;
+      height: auto;
+      top: 30%;
+      right: 10%;
+    }
+  
+    .Sl_2 {
+      object-fit: cover;
+      width: 100%;
+      height: 222px;
+    }
+  
+    #click_off_V,
+    #click_off_H {
+      object-fit: cover;
+    }
+  
+    #click_off_V {
+      width: 69px;
+      height: auto;
+      top: 20.5%;
+      left: 13.8%;
+    }
+  
+    #click_off_H {
+      width: 35%;
+      height: auto;
+      top: 32%;
+      left: 46.5%;
+    }
+    .gridTable {
+      padding-top: 75%;
+      grid-template-columns: 330px;
+      grid-template-rows: 114px 114px 114px 114px 114px 114px;
+    }
+  
+    .line_3 {
+      width: 100%;
+      padding: 0;
+      bottom: -15.5%;
+    }
+  
+    .footer {
+      height: 1000px;
+    }
+  
+    /*Singolo2*/
+    .headText {
+      margin-right: 8%;
+    }
+  
+    .Portfolio {
+      height: 850px;
+    }
+  
+    .headText {
+      margin-right: 10%;
+    }
+  
+    .headButton {
+      top: 12%;
+      left: -7%;
+    }
+  
+    .gridImg {
+      margin-top: 17%;
+      grid-template-columns: 170px 170px;
+      grid-template-rows: 145px 145px 145px 145px;
+    }
+  
+    .PortfolioImg {
+      width: 151px;
+      height: 127px;
+    }
+  
+    .last {
+      display: none;
+    }
+  
+    .About_Us {
+      height: 1850px;
+    }
+  
+    .headDown {
+      top: 3%;
+    }
+  
+    .textDown {
+      position: absolute;
+      top: 4%;
+      right: 3.9%;
+    }
+    .gridDown {
+      margin-top: -45%;
+      grid-template-columns: 315px;
+      grid-template-rows: 480px 480px 480px;
+    }
+  
+    .people {
+      width: 314px;
+      height: 314px;
+    }
+  
+    .gameText {
+      margin-right: 0;
+    }
+    .messages {
+      margin-top: 0;
+    }
+  
+    /*Singolo 3*/
+    .get_a_quote {
+      height: 1000px;
+    }
+  
+    h1 {
+      top: 5%;
+    }
+  
+    .head3Text {
+      margin-top: -21%;
+      margin-right: 7%;
+    }
+  
+    .form-inner {
+      margin-top: -15%;
+      width: 88%;
+      height: 309px;
+    }
+  
+    .contact_inf {
+      display: block;
+      position: absolute;
+      top: 93.5%;
+      left: 5%;
+      width: 100%;
+    }
+  
+    .contact_text {
+      width: 87%;
+    }
+  
+    .geo_inf {
+      margin-top: -2%;
+    }
+  
+    .form-inner input[type="submit"] {
+      width: 110%;
+      height: 50px;
+    }
+  
+    .pinkLine {
+      bottom: 1.5%;
+    }
+  
+    .bg_footer {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+    .Copy {
+      display: none;
+    }
+  
+    .message2 {
+      top: 25%;
+      left: 29%;
+    }
+  }
