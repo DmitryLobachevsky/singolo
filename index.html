@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="style_768.css" type="text/css" rel="stylesheet" >
+    <link href="style_375.css" type="text/css" rel="stylesheet" >
     <title>All Singolo</title>
 </head>
 <body>
+  <div class="wrapper_all" >
     <div class="singolo1">
         <div class="wrapper1">
             <header class="header">
               <h1 class="h1_1">Singolo<span class="_h1_1">*</span></h1>
               <ul class="menu">
-                <li><a href="#Home" id="h" onclick="MenuCollor(this.id)">HOME</a></li>
+                <li><a href="#Home" id="h" class="_h1_1" onclick="MenuCollor(this.id)">HOME</a></li>
                 <li><a href="#Services" id="s" onclick="MenuCollor(this.id)">SERVICES</a></li>
                 <li><a href="#Portfolio" id="p" onclick="MenuCollor(this.id)">PORTFOLIO</a></li>
                 <li><a href="#About" id="a" onclick="MenuCollor(this.id)">ABOUT</a></li>
@@ -27,17 +30,17 @@
                   <img src="/assets/img/left.png" alt="" class="leftImg" onclick="plusSlide()">
                   <img src="/assets/img/right.png" alt="" class="rightImg" onclick="minusSlide()">
                 </div>
-                <div class="slide_2 slide_item">
-                  <img src="/assets/img/slide_2.png" alt="slide_2">
+                <div class="slide_2 slide_item ">
+                  <img src="/assets/img/slide_2.png" class="Sl_2 css-adaptive" alt="slide_2">
                 </div>
                 <div class="slide_1 slide_item">
-                  <img src="/assets/img/iPhone Vertical.png" alt="" class="vertPhone" id="click_on_V" onclick="FuncImagesV('on')">
+                  <img src="/assets/img/iPhone Vertical.png" alt="" class="vertPhone css-adaptive" id="click_on_V" onclick="FuncImagesV('on')">
                   <div id="click_off_V" onclick="FuncImagesV('off')">
-                   <img src="/assets/img/PhoneOffV.png" alt="OffV"  >
+                   <img src="/assets/img/PhoneOffV.png" class="css-adaptive" alt="OffV"  >
                   </div>
-                  <img src="/assets/img/iPhone Horizontal.png" alt="" class="horPhone" id="click_on_H" onclick="FuncImagesH('on')">
+                  <img src="/assets/img/iPhone Horizontal.png" alt="" class="horPhone css-adaptive" id="click_on_H" onclick="FuncImagesH('on')">
                   <div id="click_off_H" onclick="FuncImagesH('off')"> 
-                   <img src="/assets/img/PhoneOffH.png" alt="OffH" >
+                   <img src="/assets/img/PhoneOffH.png" class="css-adaptive OffH" alt="OffH" >
                   </div>
                 </div>
               </div>
@@ -119,7 +122,7 @@
     <div class="singolo2">
         <div class="wrapper2">
             <div class="Portfolio" id="Portfolio">
-              <h1 >Portfolio</h1>
+              <h1 class="h1_2" >Portfolio</h1>
               <p class="headText">
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
                 lacinia odio sem nec elit.
@@ -132,40 +135,40 @@
               </ul>
               <div class="gridImg" id="Portfolio_Img">
                 <div>
-                  <img src="/assets/img_singolo2/1_1.png" alt="1_1" id="pic1_1"  onclick="borderSetter(this.id)" />
+                  <img src="/assets/img_singolo2/1_1.png" alt="1_1" id="pic1_1" class="PortfolioImg"  onclick="borderSetter(this.id)" />
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/1_2.png" alt="1_2" id="pic1_2"  onclick="borderSetter(this.id)" />
+                  <img src="/assets/img_singolo2/1_2.png" alt="1_2" id="pic1_2" class="PortfolioImg"  onclick="borderSetter(this.id)" />
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/1_3.png" alt="1_3" id="pic1_3"  onclick="borderSetter(this.id)" />
+                  <img src="/assets/img_singolo2/1_3.png" alt="1_3" id="pic1_3" class="PortfolioImg"  onclick="borderSetter(this.id)" />
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/1_4.png" alt="1_4" id="pic1_4" onclick="borderSetter(this.id)"/>
+                  <img src="/assets/img_singolo2/1_4.png" alt="1_4" id="pic1_4" class="PortfolioImg" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/2_1.png" alt="2_1" id="pic2_1" onclick="borderSetter(this.id)"/>
+                  <img src="/assets/img_singolo2/2_1.png" alt="2_1" id="pic2_1" class="PortfolioImg" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/2_2.png" alt="2_2" id="pic2_2" onclick="borderSetter(this.id)"/>
+                  <img src="/assets/img_singolo2/2_2.png" alt="2_2" id="pic2_2" class="PortfolioImg" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/2_3.png" alt="2_3" id="pic2_3" onclick="borderSetter(this.id)"/>
+                  <img src="/assets/img_singolo2/2_3.png" alt="2_3" id="pic2_3" class="PortfolioImg" onclick="borderSetter(this.id)"/>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/2_4.png" alt="2_4" id="pic2_4" onclick="borderSetter(this.id)"/>
+                  <img src="/assets/img_singolo2/2_4.png" alt="2_4" id="pic2_4" class="PortfolioImg" onclick="borderSetter(this.id)"/>
                 </div>
-                <div>
-                  <img src="/assets/img_singolo2/3_1.png" alt="3_1" id="pic3_1" onclick="borderSetter(this.id)"/>
+                <div class="last">
+                  <img src="/assets/img_singolo2/3_1.png" alt="3_1" id="pic3_1"  onclick="borderSetter(this.id)"/>
                 </div>
-                <div>
+                <div class="last">
                   <img src="/assets/img_singolo2/3_2.png" alt="3_2" id="pic3_2" onclick="borderSetter(this.id)"/>
                 </div>
-                <div>
-                  <img src="/assets/img_singolo2/3_3.png" alt="3_3" id="pic3_3" onclick="borderSetter(this.id)"/>
+                <div class="last"> 
+                  <img src="/assets/img_singolo2/3_3.png" alt="3_3" id="pic3_3"  onclick="borderSetter(this.id)"/>
                 </div>
-                <div>
-                  <img src="/assets/img_singolo2/3_4.png" alt="3_4" id="pic3_4" onclick="borderSetter(this.id)"/>
+                <div class="last">
+                  <img src="/assets/img_singolo2/3_4.png" alt="3_4" id="pic3_4"  onclick="borderSetter(this.id)"/>
                 </div>
               </div>
               <div class="darkline"></div>
@@ -179,7 +182,7 @@
       
               <div class="gridDown">
                 <div>
-                  <img src="/assets/img_singolo2/Adam.png" alt="Adam">
+                  <img src="/assets/img_singolo2/Adam.png" class="people" alt="Adam">
                   <div class="gameName">Adam Jensen</div>
                   <div class="gameText">Quisque luctus, quam eget molestie commodo,
                      lacus purus cursus purus, nec rutrum tellus dolor id lorem.</div>
@@ -189,7 +192,7 @@
                      <div class="messages"><img src="/assets/img_singolo2/Linkedin 3.png" alt="Linkedin" class="Linkedin"></div>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/Desmond.png" alt="Desmond">
+                  <img src="/assets/img_singolo2/Desmond.png" class="people" alt="Desmond">
                   <div class="gameName">Desmond Miles</div>
                   <div class="gameText">Curabitur vestibulum eget mauris quis laoreet.
                      Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</div>
@@ -199,7 +202,7 @@
                      <div class="messages"><img src="/assets/img_singolo2/Linkedin 3.png" alt="Linkedin" class="Linkedin"></div>
                 </div>
                 <div>
-                  <img src="/assets/img_singolo2/Scolara.png" alt="Scolara">
+                  <img src="/assets/img_singolo2/Scolara.png" class="people" alt="Scolara">
                   <div class="gameName">Scolara Visari</div>
                   <div class="gameText">Nulla sed nunc et tortor luctus faucibus.
                      Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</div>
@@ -260,9 +263,9 @@
                       </div>
                       <div class="need_information"><a href="mail:info@singolo.com">info@singolo.com</a></div>
                   </div>
+                </div>
+                <div class="pinkLine"></div>
               </div>
-              <div class="pinkLine"></div>
-            </div>
             <div class="bg_footer">
                 <div class="Copy"><span>© Copyright 2013</span></div>
                 <div class="message2">
@@ -274,6 +277,6 @@
             </div>
           </div>
     </div>
-    
+  </div>  
 </body>
 </html>

@@ -1,0 +1,154 @@
+@media screen and (min-width: 768px) and (max-width: 1019px) {
+  body {
+    margin: 0 auto;
+    padding: 0;
+  }
+  /*Singolo1*/
+  .main {
+    height: 452px;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .leftImg,
+  .rightImg {
+    top: 210px;
+  }
+
+  .vertPhone {
+    object-fit: cover;
+    width: 192px;
+    height: 388px;
+    margin: 0;
+    padding:0;
+  }
+
+  .horPhone {
+    object-fit: cover;
+    height: 200px;
+    top: 145px;
+    right: 8%;
+    margin: 0;
+    padding:0;
+  }
+
+  .Sl_2 {
+    object-fit: cover;
+    width: 100%;
+    height: 452px;
+  }
+
+  #click_off_V,
+  #click_off_H {
+    object-fit: cover;
+  }
+
+  #click_off_V {
+    width: 153px;
+    top: 93px;
+    left: 12%;
+  }
+
+  #click_off_H {
+    width: 285px;
+    top: 156px;
+    right: 16.5%;
+  }
+  .gridTable {
+    margin: 0 auto;
+    grid-template-columns: 319px 320px;
+    grid-template-rows: 123px 123px 123px;
+  }
+
+  .footer {
+    height: 600px;
+  }
+
+  /*Singolo2*/
+  .Portfolio {
+    height: 1102px;
+  }
+
+  .headText {
+    margin-right: 5%;
+  }
+
+  .headButton {
+    top: 9%;
+    left: -1%;
+  }
+
+
+  .gridImg {
+    grid-template-columns: 240px 240px 240px;
+    grid-template-rows: 207px 207px 207px 207px;
+  }
+
+  .About_Us{
+    height: 650px;
+  }
+
+  .textDown {
+    position: absolute;
+    top: 100px;
+  }
+  .gridDown {
+    margin-top: 3%;
+    grid-template-columns: 240px 240px 240px;
+  }
+
+  .people {
+    width: 219px;
+    height: 219px;
+  }
+
+  .gameText {
+    width: 219px;
+  }
+
+  /*Singolo 3*/
+  .get_a_quote {
+    height: 681px;
+  }
+
+  .head3Text {
+    margin-right: 7%;
+  }
+
+  .form-inner {
+    margin-top: 2%;
+    width: 442px;
+    height: 309px;
+    }
+
+  .rightHead {
+    margin-top: 4%;
+    margin-left: 7%;
+  }
+
+  .contact_text {
+    width: 221px;
+    margin-left: 7%;
+  }
+
+  .geo_inf {
+    margin-top: 15%;
+    margin-left: 7%;
+  }
+
+  .form-inner input[type="submit"] {
+    width: 136px;
+    height: 38px;
+  }
+
+  .bg_footer {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .message2 {
+    left:79%;
+  }
+}
